@@ -6,7 +6,6 @@ test('submits email and password', () => {
   const onSubmit = vi.fn()
   render(<LoginForm onSubmit={onSubmit} />)
 
-  // Make sure your <form> has aria-label="login-form"
   fireEvent.change(screen.getByLabelText(/email/i), { target: { value: 'a@b.com' } })
   fireEvent.change(screen.getByLabelText(/password/i), { target: { value: 'secret' } })
 

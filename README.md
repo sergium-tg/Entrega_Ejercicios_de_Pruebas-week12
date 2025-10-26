@@ -45,10 +45,9 @@ npm test -- --run
 
 ---
 
-## 🤖 GitHub Actions (CI)
+## 🤖 GitHub Actions (CI) *PENDIENTE*
 The workflow file is in `.github/workflows/ci.yml`. On every **push** / **pull request**, it will:
 - Install Python deps and run **backend tests** (`pytest`).
 - Install Node deps and run **frontend tests** (`vitest`).
 
 No configuration needed — just **push this repo to GitHub**.
-# test01
