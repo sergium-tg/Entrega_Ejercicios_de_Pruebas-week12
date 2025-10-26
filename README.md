@@ -17,7 +17,7 @@ This repository is a **ready-to-run** template to practice **unit testing** loca
 
 ## ▶️ How to run locally
 
-### 1) Backend (FastAPI + pytest)
+### 1) Backend (FastAPI + pytest) *FINALIZADO*
 ```bash
 cd backend
 
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 pytest -q
 ```
 
-### 2) Frontend (React + Vitest)
+### 2) Frontend (React + Vitest) *FINALIZADO*
 ```bash
 cd frontend
 npm install
@@ -45,7 +45,7 @@ npm test -- --run
 
 ---
 
-## 🤖 GitHub Actions (CI) *PENDIENTE*
+## 🤖 GitHub Actions (CI) *FINALIZADO*
 The workflow file is in `.github/workflows/ci.yml`. On every **push** / **pull request**, it will:
 - Install Python deps and run **backend tests** (`pytest`).
 - Install Node deps and run **frontend tests** (`vitest`).
